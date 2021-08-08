@@ -100,14 +100,14 @@ animation: fade-in 0.8s 1;
 .slide-picture { flex: 1; }
 
 .slide-description h2 {
-  font-family: "Ubuntu" ; font-size: 30px;
+  font-family: "Inter", sans-serif; font-size: 30px;
   margin-bottom: 20px;
   color:white;
   letter-spacing: 3px;
 }
 
 .slide-description p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   color:whitesmoke;
   line-height: 1.9;
 }
