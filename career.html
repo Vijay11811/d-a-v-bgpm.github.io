@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--
+        This file is a part of Davis.
+        Author: 
+        License: AGPL 3.0
+        -->
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="dav-bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="base_theme.css" rel="stylesheet">
+        <link href="activities.css" rel="stylesheet">
+        {% if title %}
+        <title>{{ title }} - DAV Boys Senior Secondary School</title>
+        {% else %}
+        <title>DAV Boys Senior Secondary School</title>
+        {% endif %}
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-md-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="dav.png" alt="DAV LOGO">
+                        <span class="d-none d-lg-block">DAV Boys Senior Secondary School </span> 
+                        
+                    </a>
+                    <a class="navbar-brand d-block d-sm-block d-lg-none">
+                        <span class="navbar-brand-text" id="mobile-text"><b>DAV Boys Senior Secondary School</b></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="dav.png" alt="DAV LOGO">
+                    <span class="navbar-brand-text">DAV Boys Senior Secondary School</span>
+                </a> -->
+                <a class="navbar-brand d-block d-sm-block d-lg-none">
+                    <span class="navbar-brand-text" id="mobile-text"></span> <!-- Todo - make me responsive -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="dav-navbar-infolinks">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('management_page') }}">Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Achievements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dav-navbar-dropdown-admissions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Admissions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dav-navbar-dropdown-admissions">
+                                <li><a class="dropdown-item" href="#">LKG Admissions</a></li>
+                                <li><a class="dropdown-item" href="#">UKG Admissions</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="dav-navbar-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Activities
+                            </a>
+            
+
+
+
+                        <ul class="dropdown-menu" aria-labelledby="dav-navbar-dropdown">
+
+
+
+        
+                            <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
+                            <li><a class="dropdown-item" href="#">Extra Curricular Activities</a></li>
+                            <li><a class="dropdown-item" href="yoga.html">Yoga</a></li>
+                            <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="ncc.html">NCC</a></li>
+                            <li><a class="dropdown-item" href="scouts.html">Scouts</a></li>
+                            <li><a class="dropdown-item" href="#">Guest Lectures</a></li>
+                            <li><a class="dropdown-item" href="career.html">Career Counselling</a></li>
+                        
+                        </ul>
+
+
+
+
+
+
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alumini</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carrers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </nav> <br>
+<h3 style="text-align:center">CAREER COUNSELLING</h3> <br>
+<div class="grid-container">
+    
+  
+  
+<div class="grid-box-three">
+    <div class="grid-title"> 
+<h6 style="padding-top: 5px;">
+  
+    08.04.2019 <br>
+    
+1 HOUR <br>
+    CLASSES ATTENDED : XII<br>
+    SPEAKER : Mr.Sudarshan,Singapore,Alumnus
+</h6>
+    </div>
+    <div class="grid-text">
+A career counselling session was held for the students of Class 12 on 
+software development on 08.04.19. 
+Sudarshan,an alumnus of D.A.V Boys Senior Secondary School,
+also from NUS addressed the students on his journey so far ,
+the role of a software developer and why they should know more 
+about software development. 
+ He clarified the doubts that the s
+ tudents had during the interactive session that followed his talk
+    
+<br><br><br>
+
+    </div>
+</div>
+
+  
+<div class="grid-box-three">
+    <div class="grid-title"> 
+<h6 style="padding-top: 5px;">10.04.2019 <br>
+    1 HOUR <br>
+    CLASSES ATTENDED : XII<br>
+    SPEAKER : Dr.Prof. Thiruvenkataswami, HOD,SSN,Eng Dept
+</h6>
+    </div>
+    <div class="grid-text">
+        Dr. Prof Thiruvenkataswami, Professor and HOD of the English Dept, SSN College of Engineering, addressed the students of Class 12 on the unexplored avenues that students could pursue after 12th. He requested the students to be receptive and consider the untapped opportunities. He also spoke about various universities catering to these unexplored courses
+
+<br><br><br> <br><br>
+
+    </div>
+</div>
+
+  
+<div class="grid-box-three">
+    <div class="grid-title"> 
+<h6 style="padding-top: 5px;">06.07.2019 <br>
+   1 HOUR <br>
+    CLASSES ATTENDED : XII<br>
+    SPEAKER : Mr. Vipin, Career Launcher
+</h6>
+    </div>
+    <div class="grid-text">
+        An exclusive session for the Commerce students was organised by Mr. Vipin of Career Launcher for the students of Class 12. He threw light upon the diverse segments and programmes for the commerce stream. He also focussed on ' Law as a career'- the career opportunities post their completion
+<br><br><br> <br><br><br>
+
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="grid-container">
+    
+  
+  
+    <div class="grid-box-three">
+        <div class="grid-title"> 
+    <h6 style="padding-top: 5px;">06.08.2019 <br>
+       1 HOUR <br>
+        CLASSES ATTENDED : XII<br>
+        SPEAKER : Ms. Avantika Mishra,Krea University
+    </h6>
+        </div>
+        <div class="grid-text">
+            D.A.V Boys Sr.Sec School ,GPM, conducted a career counselling session for the students of Class 12 on 06/08/19. The resource person was Ms.Avantika Mishra, Regional Manager of Ashoka University. She enlightened the students about liberal education- facility to  choose interdisciplinary subjects throughout their 3 year programme. She also highlighted that students would be encouraged to do a research programme in their 4th year,which would facilitate them to pursue higher studies abroad. She further explained about the fee structure and scholarship benefits at the University.
+            <br><br><br>
+    
+        </div>
+    </div>
+    
+      
+    <div class="grid-box-three">
+        <div class="grid-title"> 
+    <h6 style="padding-top: 5px;">06.08.2019 <br>
+    1 HOUR <br>
+        CLASSES ATTENDED : XII<br>
+        SPEAKER : Mr.Jaya Murugan,DAV Shikshanam.
+    </h6>
+        </div>
+        <div class="grid-text">
+            Mr. Jaya Murugan , faculty of D.A.V Shikshanam presented an overview of the NDA programme, to the students of Class 12 ,on 06/08/19. He spoke about the 3 services, the Army, the Navy and the Airforce, where the cadets train together before they go on to the respective service academics for further pre- commissioned training.
+            He further educated the students about the responsibility & pride it carries;  He also  shed light on the   eligibility criteria, admission procedure, training details  and other benefits it entails.
+            
+    <br><br><br> <br><br>
+    
+        </div>
+    </div>
+    
+      
+    <div class="grid-box-three">
+        <div class="grid-title"> 
+    <h6 style="padding-top: 5px;">21.10.2019 <br>
+      1 HOUR <br>
+        CLASSES ATTENDED : XII<br>
+        SPEAKER : Ms .Astha & Mr. Gaurav,Krea University
+    </h6>
+        </div>
+        <div class="grid-text">
+            Ms .Astha and Mr. Gaurav from Krea University sensitised the students of classes 11&12 on 21.10.19, about liberal arts and it's futuristic growth. They discussed about various courses ,their eminent faculty and the state of the art infrastructure. They also elaborated on the eligibility criteria, the fee structure and the criterion for obtaining scholarship.
+            Students interacted with them  and raised many queries to which clarifications were given.
+             <br><br><br><br>
+    
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="grid-container">
+    
+  
+  
+        <div class="grid-box-three">
+            <div class="grid-title"> 
+        <h6 style="padding-top: 5px;">19.11.2019 <br>
+            1 HOUR <br>
+            CLASSES ATTENDED : XII<br>
+             SPEAKER: Dr. Paramasivam,Retd. Prof. NUS
+
+        </h6>
+            </div>
+            <div class="grid-text">
+                A career counseling  programme was held at DAV Boys Sr.Sec.School for Class 12,on 19.11.19. Dr. Paramasivam, Retd. Professor, NUS,now facilitating the admissions for students from India to NUS, addressed the students and spoke about the courses available, eligibility criteria, admission process,fee structure, financial assistance and the scheduled dates to apply. He concluded the session by answering the queries raised by the students.
+                <br><br><br><br><br><br>
+        
+            </div>
+        </div>
+        
+          
+        <div class="grid-box-three">
+            <div class="grid-title"> 
+        <h6 style="padding-top: 5px;">25.11.2019 <br>
+           1 HOUR <br>
+            CLASSES ATTENDED : XII<br>
+            SPEAKER : Mr. Arun Vignesh,Alumnus
+        </h6>
+            </div>
+            <div class="grid-text">
+                Arun  Vignesh ,an alumnus of 2012 batch,(DAV Boys Sr Sec School) school 2nd topper, addressed the students of class 12,commerce stream on 25.11.19.  He sensitised the students on the unexplored career opportunities available for the commerce students, followed by an interactive session, clarifying the queries of the students.
+        <br><br><br> <br><br>
+        
+            </div>
+        </div>
+        
+          
+        <div class="grid-box-three">
+            <div class="grid-title"> 
+        <h6 style="padding-top: 5px;">06.12.2019 <br>
+           1 HOUR <br>
+            CLASSES ATTENDED : XII<br>
+            SPEAKER : Mr. Nilesh (Director, Delloitte,Mr.Ranjit,Ms.Rupal Soni,Mr. Krishnan,                 Mr.Anchit Goyal 
+
+        </h6>
+            </div>
+            <div class="grid-text">
+                Deloitte ,the chartered accounting firm had  conducted the Student Programme ,'Disha'at DAV Boys Sr. Sec School, Gopalapuram also. It aimed at giving a significant exposure to
+    Data analytics, Soft skills, Career for different streams.
+                The five member team consisted of Mr. Nilesh,Director , Consulting,Ms. Rupal Soni,Manager Consulting, Krishnan, Senior Analyst and Anchit Goyal,Analyst(An alumnus of DAV Boys Sr sec school,Gpm)
+                <br><br><br>
+        
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="grid-container">
+    
+  
+  
+            <div class="grid-box-three">
+                <div class="grid-title"> 
+            <h6 style="padding-top: 5px;">9.08.2020 <br>
+                1 HOUR <br>
+                CLASSES ATTENDED : XII<br>
+                 SPEAKER: Mr. Parag Makhecha
+    
+            </h6>
+                </div>
+                <div class="grid-text">
+                    A motivational  talk,  was delivered  followed by an interactive  online session, by Mr Parag Makhecha on 29th August. The session was attended by students of classXII
+                     .Mr Parag is a multifaceted personality having earned his 
+                     scholarship in quality management from Tokyo and is an accomplished trainer. 
+                     The topic was  "Dreams unlimited". He motivated the students to dream high and  
+                     strive hard to achieve it. He also highlighted the importance of good communication skills. It was a very good interactive session.<br><br>
+            
+                </div>
+            </div>
+            
+              
+            <div class="grid-box-three">
+                <div class="grid-title"> 
+            <h6 style="padding-top: 5px;">21.10.2019 <br>
+               1 HOUR <br>
+                CLASSES ATTENDED : XII<br>
+                SPEAKER : Mr.Bharath Saiguhan, Alumnus,IISER
+            </h6>
+                </div>
+                <div class="grid-text">
+                    A career counselling session was conducted on 21/10/20 by Mr Bharath Saiguhan.It was indeed a special session as the speaker is our alumnus  of 2016 batch. Currently he is pursuing his Masters in Astrophysics and Astronomy IN IIST Trivandrum. He elaborated on the criteria for admission, courses offered, research areas, scholarships available, placements, sports and other recreation activities on campus. After the session, students got clarified all their queries from the speaker. It was indeed an enriching session for our students<br>
+            <br><br>
+                </div>
+            </div>
+            
+              
+            <div class="grid-box-three">
+                <div class="grid-title"> 
+            <h6 style="padding-top: 5px;">12.12.2020 <br>
+           1 HOUR <br>
+                CLASSES ATTENDED : XII<br>
+                SPEAKER : MR JAIDEEP
+            </h6>
+                </div>
+                <div class="grid-text">
+                    A career counselling session was conducted on 12/12/2020 by Mr Jaideep a successful professional from bank and financial service sector.He elaborated on various job opportunities available in this sector. He highlighted on how to plan a successful career and to evolve at every  stage in  their career.He clarified all the queries with regard to banking and financial industry <br><br><br>
+            <br><br><br><br>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+        
+        <footer class="footer mt-auto py-3 bg-light" style="position:sticky;width:initial;padding-top: 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Copyright &copy; Tamil Nadu Arya Samaj Educational Society</p>
+                        <br>
+                         <span>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></span>
+                         <br>
+                         <br>
+                         <br>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#dav-modal-schoolswitch">Switch Schools</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+            </div>
+        </footer>
+
+        <!--DAV Modals-->
+        <div class="modal fade" id="dav-modal-schoolswitch" tabindex="-1" aria-labelledby="dav-modal-schoolswitch-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-sm-down">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dav-modal-schoolswitch-label" style="text-align:right;">Switch Schools</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Boys, CBSE (Gopalapuram)
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Gopalapuram)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boys, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Gill Nagar)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (BHEL Ranipet)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Puducherry)</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+       
+    </body>
+</html>
