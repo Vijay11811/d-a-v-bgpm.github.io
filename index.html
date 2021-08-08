@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--
+        This file is a part of DARVIS.
+        Author: 
+        License: AGPL 3.0
+        -->
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="/static/css/dav-bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/static/css/base_theme.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <title>DAV Boys Senior Secondary School</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-md-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="/static/img/dav.png" alt="DAV LOGO">
+                        <span class="d-none d-lg-block">DAV Boys Senior Secondary School </span> 
+                        
+                    </a>
+                    <a class="navbar-brand d-block d-sm-block d-lg-none">
+                        <span class="navbar-brand-text" id="mobile-text"><b>DAV Boys Senior Secondary School</b></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="dav.png" alt="DAV LOGO">
+                    <span class="navbar-brand-text">DAV Boys Senior Secondary School</span>
+                </a> -->
+                <a class="navbar-brand d-block d-sm-block d-lg-none">
+                    <span class="navbar-brand-text" id="mobile-text"></span> <!-- Todo - make me responsive -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="dav-navbar-infolinks">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Achievements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Functions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Mandatory Public Disclosure</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="dav-carousel-main-top" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" src="/static/img/quadrangle2.jpg" alt="DAV School Building Image">
+
+                    <div class="container">
+                        <!--<div class="carousel-caption">
+                            <div style="text-shadow: 1px 1px 2px rgb(0, 0, 0); color: orange;">
+                                <h1>Welcome to DAV</h1>
+                                <p>Where the brightest minds are nurtured</p>
+                            </div>
+                            <p><a class="btn btn-lg btn-primary" href="#">Our Achievements</a></p>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="/static/img/library.jpg" alt="DAV School Library Image">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Library</h1>
+                            <p>Our library features some of the best books in the literary and educational fields</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">About the library</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="/static/img/quadrangle.jpg" alt="DAV School Building Image">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Quadrangle</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="/static/img/main_entrance.jpg" alt="DAV School Building Image">
+
+                    {# <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Quadrangle</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div> #}
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dav-carousel-main-top" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+
+            <!--About Us-->
+            <div class="row">
+                <h1 id="arya-samaj-back-to-vedas">The Arya Samaj Back To Vedas Philosophy</h1>
+                <p>
+                    Arya Samaj (“Noble society”) is a movement that promotes values and practices based on the infallibility of the Vedas. It is not a separate religion by itself, but rather aims to ensure that all human beings lead a righteous life in accordance with the ‘Vedic’ principles. It was founded by Maharishi Swami Dayanand Saraswati in April 1875 as a secular movement, more to unify like-minded individuals (irrespective of caste, creed, religion, gender) under a common umbrella.
+                    Vedas are universally accepted as the oldest scriptures (known to be present since beginning of mankind) and are in a way a ‘User Manual’ prescribing how human beings should lead their lives.
+                    All ‘religions’ followed across the world today are only a few thousand years old. They emerged relatively recently considering that humans have existed for more than a million years. The word ‘Hindu’ indeed was coined only about 3,000 years ago (referring to people living towards the East of the famous river ‘Indus’).
+                    Arya Samaj thus propagates the message – ‘Back to Vedas’, which is based on core values of Knowledge, Equality & Recognizing One Supreme Force, i.e. God. Arya Samaj also recognizes that there are multiple interpretations of the Vedic texts, some of them directly in conflict with each other.
+                    Swami Dayanand Saraswati therefore outlined certain key aspects which form an integral part of the Vedic philosophy.
+                </p>
+            </div>
+            <div class="row">
+                <h1>Message from our principal</h1>
+                <div class="col-md-3">
+                    <img src="/static/img/chitra_new.jpg" alt="Principal" width="100%" style="border-radius:100%;">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Mrs. Chitra Raghavan started her illustrious teaching career in the year 1992 as PGT in Physics. An M.Phil in Nuclear Physics, from the University of Madras, her first stint as Principal was for a period of 9 years before she joined D.A.V. Boys Gopalapuram in the year 2005 as PGT (Physics). With her signature teaching style of systematic and rigorous schedule, learning by doing and experiential learning method, she has always encouraged students to give their best and the best they did give – with an impressive record of 87% of students scoring A1 and A2 on an average in Class XII Board Examination in Physics, every year. She is a visionary who believes that ‘The Child is father of the Man’ and the values and personality a child develops in his formative years, mould his mettle and escort him for the rest of his life.
+                    </p>
+                    <br>
+                    <p>
+                        In her words,<br>
+
+                        “A teacher can never tell where his or her influence stops – it can affect eternity. We, at D.A.V., believe that every child is unique, special and needs an individual approach, no similar to another. A child’s growth is not in measure of his curricular performance or co-curricular excellence, but is in a holistic development that guides and supports him for the rest of his life. The attitude he carries with him determines the altitude he reaches in life.
+                    </p>
+                    <br>
+                    <p>
+                        Do not educate a child to be rich, educate him to be happy. So, when he grows up, he will know the value of things, not the price. We, at D.A.V., strongly believe that gratitude is a quality that must be nurtured in every child as he grows so that he learns to count his blessings every single day. To achieve these objectives, the journey we undertake is long and comes with its own challenges, bends and turns and the role of a parent in this journey is also indispensible.
+                    </p>
+                    <br>
+                    <p>
+                        To raise a child who is comfortable enough to leave you means that you have done your job. They are not ours to keep but to soar high on their own. In this, I believe that parents and teachers are allies who should work together for the fulfillment of their common objective – well being of the child. A parent is equally responsible in fostering morality in a child as a teacher is. A child should appreciate what he has, realize how blessed he is, utilize the God-sent opportunities in a productive manner and reap the benefits. The bent of the mind of a child, his abilities and inclination must always be given foremost priority while taking crucial decisions in his life.
+                    </p>
+                    <br>
+                    <p>
+                        In conclusion, with the grace of the Almighty, blessings of our founding fathers Maharishi Dayanand Saraswati and Mahatma Hansraj and many other torchbearers of the egalitarian principles of our school who have led the mission and vision of D.A.V. till date, the never-ending trust and support of our parents, we march forward towards greater glory, farther destination, to continue this responsibility of producing patriotic and responsible citizens of our nation.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <h1>Our Vision</h1>
+                <div class="col-md-3">
+                    <img src="/static/img/plant.png" alt="Icon" aria-hidden="true">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        THE PURPOSE OF EDUCATION is to give to the body and the soul all the beauty and all the perfection of which they are capable of and that, the direction in which students are guided to learning will determine the future course of his life. 
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+
+        <footer class="footer mt-auto py-3 bg-light" style="position:sticky;width:initial;padding-top: 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Copyright &copy; Tamil Nadu Arya Samaj Educational Society</p>
+                        <span><a href="#">Privacy</a> &middot; <a href="#">Terms</a></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#dav-modal-schoolswitch">Switch Schools</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+            </div>
+        </footer>
+
+        <!--DAV Modals-->
+        <div class="modal fade" id="dav-modal-schoolswitch" tabindex="-1" aria-labelledby="dav-modal-schoolswitch-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-sm-down">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dav-modal-schoolswitch-label" style="text-allign:right;">Switch Schools</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Boys, CBSE (Gopalapuram)
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Gopalapuram)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boys, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Gill Nagar)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (BHEL Ranipet)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Puducherry)</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>

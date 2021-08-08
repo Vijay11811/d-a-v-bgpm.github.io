@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/static/css/publication-css.css">
+    <title>Publications</title>
+</head>
+<body>
+
+  <section class="section subjects" id="about-section">
+    <div class="slider">
+        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="next"><i class="fas fa-chevron-right"></i></button>
+        <div class="slides-container">
+          <div class="slide active">
+            <div class="slide-description">
+              <h2>Fosterting Vedic Values</h2>
+                          <a href="#fvv" class="btn">Lets Go</a>
+            </div>
+            <div class="slide-picture">
+            </div>
+          </div>
+
+          <div class="slides-container">
+            <div class="slide active">
+              <div class="slide-description">
+                <h2>Deepika Annual Magazine</h2>
+                            <a href="#fvv" class="btn">Lets Go</a>
+              </div>
+              <div class="slide-picture">
+              </div>
+            </div>
+  </section>
+
+  <section class="info" id="deepika">
+      <h1>Choose your Book</h1>
+  </section>
+
+  <section class="cards-wrapper">
+               <div class="card-grid-space">
+            <a class="card" href="" style="--bg-img: url(/static/img/DeepikaCover.png)">
+              <div>
+                <h1>Deepika 2018-2019</h1>
+                <p>The Annual School Magazine</p>
+                <div class="tags">
+                  <div class="tag" href="insertPDFLink">Read PDF</div>
+                  <div class="tag" download="insertPDFLink">Download</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <a class="card" href="" style="--bg-img: url(/static/img/DeepikaCover.png)">
+              <div>
+                <h1>Deepika 2018-2019</h1>
+                <p>The Annual School Magazine</p>
+                <div class="tags">
+                  <div class="tag" href="insertPDFLink">Read PDF</div>
+                  <div class="tag" download="insertPDFLink">Download</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <a class="card" href="" style="--bg-img: url(/static/img/DeepikaCover.png)">
+              <div>
+                <h1>Deepika 2018-2019</h1>
+                <p>The Annual School Magazine</p>
+                <div class="tags">
+                  <div class="tag" href="insertPDFLink">Read PDF</div>
+                  <div class="tag" download="insertPDFLink">Download</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <a class="card" href="" style="--bg-img: url(/static/img/DeepikaCover.png)">
+              <div>
+                <h1>Deepika 2018-2019</h1>
+                <p>The Annual School Magazine</p>
+                <div class="tags">
+                  <div class="tag" href="insertPDFLink">Read PDF</div>
+                  <div class="tag" download="insertPDFLink">Download</div>
+                </div>
+              </div>
+            </a>
+          </div>
+  </section>
+
+  <section class="info" id="fvv" >
+    <h1>Choose your Book</h1>
+  </section>
+
+  <section class="cards-wrapper">
+            <div class="card-grid-space">
+          <a class="card" href="" style="--bg-img: url(/static/img/FVVC10Cover.png)">
+            <div>
+              <h1>Deepika 2018-2019</h1>
+              <p>The Annual School Magazine</p>
+              <div class="tags">
+                <div class="tag" href="insertPDFLink">Read PDF</div>
+                <div class="tag" download="insertPDFLink">Download</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space">
+          <a class="card" href="" style="--bg-img: url(/static/img/FVVC10Cover.png )">
+            <div>
+              <h1>Deepika 2018-2019</h1>
+              <p>The Annual School Magazine</p>
+              <div class="tags">
+                <div class="tag" href="insertPDFLink">Read PDF</div>
+                <div class="tag" download="insertPDFLink">Download</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space">
+          <a class="card" href="" style="--bg-img: url(/static/img/FVVC10Cover.png)">
+            <div>
+              <h1>Deepika 2018-2019</h1>
+              <p>The Annual School Magazine</p>
+              <div class="tags">
+                <div class="tag" href="insertPDFLink">Read PDF</div>
+                <div class="tag" download="insertPDFLink">Download</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space">
+          <a class="card" href="" style="--bg-img: url(/static/img/FVVC10Cover.png)">
+            <div>
+              <h1>Deepika 2018-2019</h1>
+              <p>The Annual School Magazine</p>
+              <div class="tags">
+                <div class="tag" href="insertPDFLink">Read PDF</div>
+                <div class="tag" download="insertPDFLink">Download</div>
+              </div>
+            </div>
+          </a>
+        </div>
+  </section>
+
+
+  <script>        
+  const prev = document.querySelector(".prev");
+    const next = document.querySelector(".next");
+    const slides = document.querySelectorAll(".slide");
+    
+    let currentIndex = 0;
+    
+    next.addEventListener("click", () => {
+      if (currentIndex == slides.length - 1) {
+        currentIndex = 0;
+        document.querySelector(".active").classList.remove("active");
+        slides[currentIndex].classList.add("active");
+        return;
+      }
+    
+      if (currentIndex < slides.length) {
+        document.querySelector(".active").classList.remove("active");
+        currentIndex++;
+        slides[currentIndex].classList.add("active");
+      }
+    });
+    
+    prev.addEventListener("click", () => {
+      if (currentIndex == 0) {
+        currentIndex = slides.length - 1;
+        document.querySelector(".active").classList.remove("active");
+        slides[currentIndex].classList.add("active");
+        return;
+      }
+    
+      if (currentIndex < slides.length) {
+        document.querySelector(".active").classList.remove("active");
+        currentIndex--;
+        slides[currentIndex].classList.add("active");
+      }
+    });
+    
+    </script>
+    
+</body>
+</html>
