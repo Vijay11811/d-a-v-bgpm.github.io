@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--
+        This file is a part of Davis.
+        Author: 
+        License: AGPL 3.0
+        -->
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="dav-bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="base_theme.css" rel="stylesheet">
+        <link href="activities.css" rel="stylesheet">
+        {% if title %}
+        <title>{{ title }} - DAV Boys Senior Secondary School</title>
+        {% else %}
+        <title>DAV Boys Senior Secondary School</title>
+        {% endif %}
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-md-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="dav.png" alt="DAV LOGO">
+                        <span class="d-none d-lg-block">DAV Boys Senior Secondary School </span> 
+                        
+                    </a>
+                    <a class="navbar-brand d-block d-sm-block d-lg-none">
+                        <span class="navbar-brand-text" id="mobile-text"><b>DAV Boys Senior Secondary School</b></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="dav.png" alt="DAV LOGO">
+                    <span class="navbar-brand-text">DAV Boys Senior Secondary School</span>
+                </a> -->
+                <a class="navbar-brand d-block d-sm-block d-lg-none">
+                    <span class="navbar-brand-text" id="mobile-text"></span> <!-- Todo - make me responsive -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dav-navbar-infolinks" aria-controls="dav-navbar-infolinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="dav-navbar-infolinks">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('management_page') }}">Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Achievements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dav-navbar-dropdown-admissions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Admissions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dav-navbar-dropdown-admissions">
+                                <li><a class="dropdown-item" href="#">LKG Admissions</a></li>
+                                <li><a class="dropdown-item" href="#">UKG Admissions</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="dav-navbar-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Activities
+                            </a>
+            
+
+
+
+                        <ul class="dropdown-menu" aria-labelledby="dav-navbar-dropdown">
+
+
+                           
+
+        
+                            <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
+                            <li><a class="dropdown-item" href="#">Extra Curricular Activities</a></li>
+                            <li><a class="dropdown-item" href="yoga.html">Yoga</a></li>
+                            <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="ncc.html">NCC</a></li>
+                            <li><a class="dropdown-item" href="scouts.html">Scouts</a></li>
+                            <li><a class="dropdown-item" href="#">Guest Lectures</a></li>
+                            <li><a class="dropdown-item" href="career.html">Career Counselling</a></li>
+                        </ul>
+
+
+
+
+
+
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alumini</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carrers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+
+
+<br>
+<div class="container">
+<h3 style="text-align: center;">SPORTS UPDATES</h3>
+
+
+<div class="grid-container">
+    <div class="grid-box-sport">
+        <div class="grid-title" >
+            <h5 >T13th State Archery Championship : 8 year old becomes champion in Tity tots 8-9 compound bow category. </h5>
+        </div>
+        <div class="grid-image">
+            <img src="archery.jpg" 
+            width="80px">
+        </div>
+       <br>
+        <div class="grid-text" style="text-align: left;">
+    <p>
+
+        Generous flow of praise embraces the 8 year old kid Shashank Sai Saravanan studying second grade in D. A. V Boys senior secondary school, for having bagged the throne of Archery with a titanic pride of a Little Master. 
+        This remarkable event was conducted by TAAT ( The Archery Association of Tamilnadu ) at MGR Janaki Women's College between    21.02.2021 and 27.02.2021.
+        <br> <br> 
+        Shashank's victory turns into vitality as he scores 350 points having a mere difference of 10 points to the hedge point. Successfully trained by the coaches Neelakrishnan and Abeharish of YMCA archery academy, the Tiny Tot with brilliant efforts has made the impossible possible.
+        </p>
+        </div>
+    </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+        
+
+        <footer class="footer mt-auto py-3 bg-light" style="position:sticky;width:initial;padding-top: 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Copyright &copy; Tamil Nadu Arya Samaj Educational Society</p>
+                        <br>
+                         <span>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></span>
+                         <br>
+                         <br>
+                         <br>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#dav-modal-schoolswitch">Switch Schools</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+            </div>
+        </footer>
+
+        <!--DAV Modals-->
+        <div class="modal fade" id="dav-modal-schoolswitch" tabindex="-1" aria-labelledby="dav-modal-schoolswitch-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-sm-down">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dav-modal-schoolswitch-label" style="text-align:right;">Switch Schools</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Boys, CBSE (Gopalapuram)
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Gopalapuram)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boys, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Girls, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Mogappair)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, Matric (Gill Nagar)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (BHEL Ranipet)</a>
+                        <a href="#" class="list-group-item list-group-item-action">Co-Ed, CBSE (Puducherry)</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+       
+    </body>
+</html>
